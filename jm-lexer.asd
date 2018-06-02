@@ -10,5 +10,5 @@
   :license "Apache 2.0"
   :description "String tokenizing for LispWorks."
   :serial t
-  :components ((:file "lexer"))
+  :components ((:file "jm-lexer"))
   :depends-on ("jm-re"))
