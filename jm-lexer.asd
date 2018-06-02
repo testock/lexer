@@ -1,7 +1,7 @@
-(defpackage :jm-lexer-asd
+(defpackage :jm-lexer
   (:use :cl :asdf))
 
-(in-package :jm-lexer-asd)
+(in-package :jm-lexer)
 
 (defsystem :jm-lexer
   :name "jm-lexer"
