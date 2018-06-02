@@ -17,8 +17,8 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :lexer
-  (:use :cl :re)
+(defpackage :jm-lexer
+  (:use :cl :jm-re)
   (:nicknames :lex)
   (:export
    #:define-lexer
@@ -52,7 +52,7 @@
    #:token-class
    #:token-value))
 
-(in-package :lexer)
+(in-package :jm-lexer)
 
 ;;; ----------------------------------------------------
 
